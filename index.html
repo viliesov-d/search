@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <p class="advance-search">Розширений пошук</p>
+    <a href="https://google.com" class="google-link anim">
+        <img class="google-image" src="google.png" alt="google">
+    </a>
+    <form class="search-form">
+        <input placeholder="Пошук" class="search-input"/>
+        <div class="buttons">
+            <button class="search-button" text="search">
+                <span class="material-icons-sharp">travel_explore</span>
+            </button>
+            <button class="image-button" text="image">
+                <span class="material-icons-sharp">image</span>
+            </button>
+            <button class="lucky-button" text="lucky">
+                <p>Мені пощастить</p>
+            </button>
+        </div>
+    </form>
+    <footer>
+        <p>&COPY; Прикладна Фізика</p>
+    </footer>
+    <div class="modal">
+        <div class="modal-container">
+            <div class="close">
+                <span class="material-icons-sharp">close</span>
+            </div>
+            <div>
+                <p>Усі ці слова:</p>
+                <input placeholder="Введіть текст" class="all-input" />
+            </div>
+            <div>
+                <p>Точне слово або фраза:</p>
+                <input placeholder="Введіть текст" class="exact-input" />
+            </div>
+            <div>
+                <p>Будь-яке з цих слів:</p>
+                <input placeholder="Введіть текст" class="any-input" />
+            </div>
+            <div>
+                <p>Жодне з цих слів:</p>
+                <input placeholder="Введіть текст" class="none-input" />
+            </div>
+            <button class="advance-button">
+                <span class="material-icons-sharp">travel_explore</span>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
